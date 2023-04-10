@@ -6,6 +6,15 @@
 
 }
 
+.div-banner-img1 {
+    background-image: url(../img/alimentos.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+
+}
+
+
 /* Ajuste de altura para las filas */
 .row {
     height: 390px;

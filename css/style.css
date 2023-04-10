@@ -1,0 +1,24 @@
+.div-banner {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 85vh;
+
+}
+
+/* Ajuste de altura para las filas */
+.row {
+    height: 390px;
+}
+
+/* Estilo para las imágenes */
+.imagen {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Espaciado entre columnas */
+.col {
+    margin-bottom: 15px;
+}

@@ -14,6 +14,15 @@
 
 }
 
+.div-banner-img2 {
+    background-image: url(../img/girl-gd2ae9fe1d_640.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+
+}
+
+
 
 /* Ajuste de altura para las filas */
 .row {

@@ -21,6 +21,11 @@
     height: 40vh;
 
 }
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 
 
 
@@ -40,3 +45,20 @@
 .col {
     margin-bottom: 15px;
 }
+/* */
+.textMail{
+    color: rgb(49, 49, 49);
+    font-size: 13px;
+    margin-left: 25px;
+}
+#comentarioDatos li{
+    list-style: none;
+}
+/*Al momneto de usar el input canbia de colo*/
+
+.colorComentario{
+background: rgb(237, 237, 237);
+  }
+
+
+#miBoton{display:none;}

@@ -138,6 +138,40 @@
                 <a href="../index.html"><img src="../img/arrow (1).png" alt="volver"></a>
             </div>
         </section>
+        <article  class="container colorComentario ">
+                <hr>
+                <h3>Comentarios</h3>
+                <form>
+                  <label for="nombreComentario" class="form-label">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombreComentario"
+                    maxlength="30"
+                    required
+                  />
+                  <label for="mailComentario" class="form-label">Ingrese el Mail</label>
+                  <input type="email" class="form-control" id="mailComentario" aria-describedby="emailHelp" required>
+          
+                  <label for="textComentario" class="form-label">Comentario</label>
+                  <textarea
+                    class="form-control"
+                    placeholder="Ingrese un comentario aqui"
+                    id="textComentario"
+                  ></textarea>
+          
+                  <button type="button" class="btn btn-primary mt-3" id="buton" >Enviar</button>
+                </form>
+          
+                <div class="containerComentario">
+                  <ul id="comentarioDatos">
+                      
+                  </ul>
+                  
+                  
+                </div>
+              
+        </article>
     </main>
     <footer>
 
@@ -147,5 +181,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.13.3/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="../js/logica.js"></script>
 
 </html>

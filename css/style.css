@@ -62,3 +62,13 @@ background: rgb(237, 237, 237);
 
 
 #miBoton{display:none;}
+.cardTexto{
+    text-align: center;
+}
+
+@media screen and (max-width:640px) {
+    .cardTexto{
+        margin-bottom: 20px;
+    }
+}
+

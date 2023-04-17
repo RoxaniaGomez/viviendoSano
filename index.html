@@ -14,107 +14,131 @@
   <title>Viviendo Sano</title>
 </head>
 
-<body>
-  <header>
-    <!-- Aquí van los elementos del header, como el logo, la barra de navegación, etc. -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="./index.html"><img src="./img/tree.png" alt="logo arbol" class="ps-3" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pag/acercaDeNos.html">Acerca de Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pag/contacto.html">Contactanos</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <div class="position-relative div-banner">
-      <div class="d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100">
-        <div class="text-center">
-          <h1 class="bg-gradient shadow bg-danger-subtle">Viviendo sano</h1>
-          <br />
-          <h2 class="bg-gradient shadow bg-primary-subtle">
-            Una gia de Hábitos para una Vida Mejor
-          </h2>
-          <br />
-          <a href="#seccionDestino2"><img src="./img/down-chevron.png" alt="boton abajo" /></a>
+  <body>
+    <header>
+      <!-- Aquí van los elementos del header, como el logo, la barra de navegación, etc. -->
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+          ><img src="./img/tree.png" alt="logo arbol" class="ps-3"
+        /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pag/"
+                  >Acerca de Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pag/contacto.html">Contactanos</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="position-relative div-banner">
+        <div
+          class="d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100"
+        >
+          <div class="text-center">
+            <h1 class="bg-gradient shadow bg-danger-subtle">Viviendo sano</h1>
+            <br />
+            <h2 class="bg-gradient shadow bg-primary-subtle">
+              Una gia de Hábitos para una Vida Mejor
+            </h2>
+            <br />
+            <a href="#seccionDestino2"
+              ><img src="./img/down-chevron.png" alt="boton abajo"
+            /></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid bg-gradient shadow bg-info-subtle">
-      <p class="display-6 m-4 p-2">
-        Tener hábitos saludables es fundamental para cuidar nuestra salud
-        física, mental y emocional y asi llegar a tener una vida mas plena y
-        satisfactoria.
-        <br />
-        En esta guia te mostraremos la mejor manera de adoptar estos habitos y
-        arraigarlos para que sean parte tuya.
-      </p>
-    </div>
+      <div class="container-fluid bg-gradient shadow bg-info-subtle">
+        <p class="display-6 m-4 p-2">
+          Tener hábitos saludables es fundamental para cuidar nuestra salud
+          física, mental y emocional y asi llegar a tener una vida mas plena y
+          satisfactoria.
+          <br />
+          En esta guia te mostraremos la mejor manera de adoptar estos habitos y
+          arraigarlos para que sean parte tuya.
+        </p>
+      </div>
 
     <div class="text-center m-4 p-2" id="seccionDestino2">
       <h2>Buscar un tema en particular:</h2>
 
-      <form class="example" action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search" />
-        <button type="submit" class="btn bg-danger-subtle">buscar</button>
-      </form>
-    </div>
-    <div class="container  " id="seccionDestino">
-      <div class="row cardTexto h-100">
-        <div class="col-md-6">
-          <img src="./img/vegetables-g54a15870a_640.jpg" alt="Imagen 1" class="imagen" />
-        </div>
-        <div class="col-md-6">
-          <h4>Alimentacion equilibrada</h4>
-          <p class="">
-            Una buena alimentacion es fundamental para aportar la cantidad
-            necesaria de energía para que el organismo funcione correctamente
-            y podamos tener una vida activa y plena
-          </p>
-          <a href="./pag/pag1.html" class="btn bg-primary-subtle">Ver más</a>
-        </div>
+        <form class="example" action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" />
+          <button type="submit" class="btn bg-danger-subtle">buscar</button>
+        </form>
       </div>
-      <div class="row flex-row-reverse cardTexto h-100 ">
-        <div class="col-md-6 ">
-          <img src="./img/yoga-g1c213077b_640.jpg" alt="Imagen 2" class="imagen" />
+      <div class="container  " id="seccionDestino">
+        <div class="row cardTexto h-100">
+          <div class="col-md-6">
+            <img
+              src="./img/vegetables-g54a15870a_640.jpg"
+              alt="Imagen 1"
+              class="imagen"
+            />
+          </div>
+          <div class="col-md-6">
+            <h4>Alimentacion equilibrada</h4>
+            <p class="">
+              Una buena alimentacion es fundamental para aportar la cantidad
+              necesaria de energía para que el organismo funcione correctamente
+              y podamos tener una vida activa y plena
+            </p>
+            <a href="./pag/pag1.html" class="btn bg-primary-subtle">Ver más</a>
+          </div>
         </div>
-        <div class="col-md-6  ">
-          <h4>Ejercicio para el cuerpo y la mente</h4>
-          <p>
-            Tener el hábito de hacer ejercicio físico es importante para tener
-            una mente y un cuerpo sanos. Si quieres comprometerte y crear una
-            rutina personal, debes planificarla a conciencia; el secreto para
-            hacerlo es no bajar los brazos y no rendirte.
-          </p>
-          <a href="./pag/pag2.html" class="btn bg-secondary-subtle">Ver más</a>
+        <div class="row flex-row-reverse cardTexto h-100 ">
+          <div class="col-md-6 ">
+            <img
+              src="./img/yoga-g1c213077b_640.jpg"
+              alt="Imagen 2"
+              class="imagen"
+            />
+          </div>
+          <div class="col-md-6  ">
+            <h4>Ejercicio para el cuerpo y la mente</h4>
+            <p>
+              Tener el hábito de hacer ejercicio físico es importante para tener
+              una mente y un cuerpo sanos. Si quieres comprometerte y crear una
+              rutina personal, debes planificarla a conciencia; el secreto para
+              hacerlo es no bajar los brazos y no rendirte.
+            </p>
+            <a href="./pag/pag2.html" class="btn bg-secondary-subtle"
+              >Ver más</a
+            >
+          </div>
         </div>
-      </div>
-      <div class="row cardTexto h-100">
-        <div class="col-md-6 ">
-          <img src="./img/dormir-1024x538.jpg" alt="Imagen 2" class="imagen" />
-        </div>
-        <div class="col-md-6">
-          <h4>Respeta el descanso</h4>
-          <p>
-            El lema del Día Mundial del Sueño del 2019 era: “Duerme bien,
-            envejece de forma sana”. Una frase que muestra la relevancia del
-            descanso para la salud física y mental. En adultos es recomendable
-            dormir entre 7-8 horas. En niños y adolescentes, debido a la etapa
-            de crecimiento en la que se encuentran, estas necesidades se
-            incrementan.
-          </p>
+        <div class="row cardTexto h-100">
+          <div class="col-md-6 ">
+            <img
+              src="./img/dormir-1024x538.jpg"
+              alt="Imagen 2"
+              class="imagen"
+            />
+          </div>
+          <div class="col-md-6">
+            <h4>Respeta el descanso</h4>
+            <p>
+              El lema del Día Mundial del Sueño del 2019 era: “Duerme bien,
+              envejece de forma sana”. Una frase que muestra la relevancia del
+              descanso para la salud física y mental. En adultos es recomendable
+              dormir entre 7-8 horas. En niños y adolescentes, debido a la etapa
+              de crecimiento en la que se encuentran, estas necesidades se
+              incrementan.
+            </p>
 
           <a href="#" class="btn bg-secondary-subtle">Ver más</a>
         </div>
@@ -158,8 +182,8 @@
   <footer></footer>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.13.3/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0-alpha1/dist/js/bootstrap.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.13.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>

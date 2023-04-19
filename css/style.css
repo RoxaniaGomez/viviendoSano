@@ -73,9 +73,28 @@ background: rgb(237, 237, 237);
 .cardTexto{
     text-align: center;
 }
+/*css modal*/
+.modal-header{
+height: 10px;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+.modal-content{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    
+    background: rgba(26, 17, 17, 0);
 
+}
+.modal-body img{
+    margin: 0px;
+    padding: 0px;
+    
+}
 
-
+/*--------------*/
 #parrafo{
     background-color: #E6E8EC;
     

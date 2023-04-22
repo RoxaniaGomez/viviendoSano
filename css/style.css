@@ -21,17 +21,19 @@
     height: 40vh;
 
 }
-*{
+
+* {
     padding: 0px;
     margin: 0px;
 }
 
 /**/
-body{
+body {
     display: flexbox;
     min-height: 100vh;
 }
-main{
+
+main {
     flex-grow: 1;
 }
 
@@ -53,56 +55,67 @@ main{
 .col {
     margin-bottom: 15px;
 }
+
 /* */
-.textMail{
+.textMail {
     color: rgb(49, 49, 49);
     font-size: 13px;
     margin-left: 25px;
 }
-#comentarioDatos li{
+
+#comentarioDatos li {
     list-style: none;
 }
+
 /*Al momneto de usar el input canbia de colo*/
 
-.colorComentario{
-background: rgb(237, 237, 237);
-  }
+.colorComentario {
+    background: rgb(237, 237, 237);
+}
 
 
-#miBoton{display:none;}
-.cardTexto{
+#miBoton {
+    display: none;
+}
+
+.cardTexto {
     text-align: center;
 }
+
 /*css modal*/
-.modal-header{
-height: 10px;
-margin: 0px;
-padding: 0px;
-border: none;
-}
-.modal-content{
+.modal-header {
+    height: 10px;
     margin: 0px;
     padding: 0px;
     border: none;
-    
+}
+
+.modal-content {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+
     background: rgba(26, 17, 17, 0);
 
 }
-.modal-body img{
+
+.modal-body img {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
 /*--------------*/
-#parrafo{
+#parrafo {
     background-color: #E6E8EC;
-    
-}
-@media screen and (min-width:640px) and (max-width:900px){
-    .cardTexto{
-        margin-bottom: 20px;
-    }
-    
+
 }
 
+
+
+@media screen and (min-width:640px) and (max-width:900px) {
+    .cardTexto {
+        margin-bottom: 20px;
+    }
+
+}

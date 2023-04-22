@@ -1,5 +1,5 @@
 function searchFunction() {
-    let input, filter, cards, cardContainer, title, i;
+    let input, filter, cards, cardContainer, title, content, i, j;
     input = document.getElementsByName("search")[0];
     filter = input.value.toUpperCase();
     cardContainer = document.getElementById("seccionDestino");
@@ -23,7 +23,15 @@ function searchFunction() {
     } else {
         for (i = 0; i < cards.length; i++) {
             title = cards[i].querySelector(".cardTexto h4");
-            if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+            content = cards[i].querySelectorAll(".cardTexto h4, .cardTexto p");
+            let found = false;
+            for (j = 0; j < content.length; j++) {
+                if (content[j].innerText.toUpperCase().indexOf(filter) > -1) {
+                    found = true;
+                    break;
+                }
+            }
+            if (found) {
                 cards[i].style.display = "";
                 cards[i].style.border = "2px solid red";
                 cardContainer.insertBefore(cards[i], cardContainer.firstChild);
@@ -59,4 +67,3 @@ function searchFunction() {
 
     }
 }
-

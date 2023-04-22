@@ -114,11 +114,35 @@ main {
 
 }
 
-
+.mainError{
+    display: flex;
+    align-content: center;
+    
+}
 
 @media screen and (min-width:640px) and (max-width:900px) {
+   
     .cardTexto {
         margin-bottom: 20px;
     }
-
+    .imgCard .imgError{
+        width: 600px;
+        padding: 0px;
+       
+    }
+    
+}
+@media screen and  (max-width:639px) {
+   .mainError{
+    width: 100%;
+   }
+    .cardTexto {
+        margin-bottom: 20px;
+    }
+    
+    .imgCard .imgError{
+        width: 300px;
+        padding: 0px;
+    }
+    
 }

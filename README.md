@@ -1,10 +1,16 @@
 # viviendoSano
-# Integrantes
-Roxania Gomez
-Juan Toranzos
-Martin Serrano
+## Autores ✒️
 
-# Requisitos👀
+* **Roxania De Jesus Gomez** - [github](https://github.com/RoxaniaGomez)
+* **Martin Serrano** - [github](https://github.com/Martinserrano724)
+* **Juan Toranzos** - [github](https://github.com/juantoranzos)
+## Construido con 🛠️
+
+* [HTML5](https://www.w3schools.com/html/default.asp) - Maquetado estatico
+* [css3](https://www.w3schools.com/css/default.asp) - Estilo
+* [JavaScript](https://www.w3schools.com/js/default.asp) - Dinamismo
+* [Boostrap](https://www.w3schools.com/bootstrap5/index.php) - Estilo
+### Requisitos👀
 
 Tener una PC
 
@@ -34,5 +40,8 @@ El objetivo del proyecto es evaluar prácticas de maquetado y lógica además de
 Se deberá presentar en el campus el link del repositorio y link del proyecto deployado en netlify.
 
 
-# Deploy netlify
+### Deploy netlify
 https://viviendo-sano.netlify.app/
+
+
+## MUchas gracias por evaluar mi trabajo 🎁
